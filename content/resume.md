@@ -1,114 +1,108 @@
 ---
 title: "Resume"
-date: 2024-01-01
+date: 2025-11-21
 description: "My professional resume and work experience"
 draft: false
 ---
 
-# Resume
+# David Yang (aka anion)
 
-## Personal Information
-
-**Name:** [Your Name]  
-**Email:** [your.email@example.com]  
-**Location:** [Your Location]  
-**GitHub:** [anionex](https://github.com/anionex)  
-**LinkedIn:** [Your LinkedIn Profile]
+*   在读
+*   anionex@qq.com
+*   [https://github.com/Anionex](https://github.com/Anionex)
 
 ---
 
-## Professional Summary
+## 教育经历
 
-Experienced software developer with a passion for building scalable applications and solving complex problems. Skilled in multiple programming languages and frameworks, with a strong focus on clean code and best practices.
-
----
-
-## Work Experience
-
-### Software Developer | Company Name | 2020 - Present
-
-- Developed and maintained web applications using modern frameworks
-- Collaborated with cross-functional teams to deliver high-quality software
-- Implemented CI/CD pipelines to improve deployment efficiency
-- Optimized application performance, resulting in 30% improvement in load times
-
-**Technologies:** JavaScript, TypeScript, React, Node.js, Python, Docker, AWS
-
-### Junior Developer | Previous Company | 2018 - 2020
-
-- Built responsive web interfaces using HTML, CSS, and JavaScript
-- Participated in code reviews and contributed to team knowledge sharing
-- Fixed bugs and improved existing features based on user feedback
-
-**Technologies:** HTML, CSS, JavaScript, PHP, MySQL
+**JNU** [211, 双一流建设高校] | 计算机科学与技术 | 本科 | 2023-09 ~ 2027-06
+全日制 | 信息科学技术学院 | 广州
 
 ---
 
-## Education
+## 专业技能
 
-### Bachelor of Science in Computer Science
-**University Name** | 2014 - 2018
+### 算法与数据结构
+熟练掌握各类算法与数据结构,能够应用动态规划、贪心、回溯、分治等算法解决实际问题。曾获得 NOI、CSP、蓝桥杯等算法竞赛奖项。
 
-- Relevant Coursework: Data Structures, Algorithms, Software Engineering, Database Systems
-- GPA: 3.8/4.0
+### 版本控制 (Git) 与协作开发
+熟悉 Git 工具,具备团队协作开发和参与开源项目的经验。曾为大型项目(几k到几十k收藏量github仓库)贡献代码,并受到社区认可。
 
----
+### Web 应用开发和运维
+掌握现代web应用开发技术,曾在多个项目中作为技术骨干,使用django、Flask等框架构建网站应用。具备基本 Linux 运维能力,能够独立完成 Web 应用的部署与管理;有使用 Docker 进行容器化部署的经验。
 
-## Technical Skills
+### 大模型工程
+有大模型的微调、量化、推理性能优化经验,掌握大语言模型在包括但不限于Ktransformers、vllm、llama.cpp推理框架上的部署和性能调优。相关项目曾参与国家级竞赛并获得国家级奖项。
 
-### Programming Languages
-- JavaScript, TypeScript, Python, Java, C++, Go
-
-### Frameworks & Libraries
-- React, Vue.js, Node.js, Express, Django, Flask
-
-### Tools & Technologies
-- Git, Docker, Kubernetes, AWS, CI/CD, Linux, PostgreSQL, MongoDB
-
-### Other Skills
-- Agile/Scrum methodologies
-- Test-driven development (TDD)
-- Code review and mentoring
-- System design and architecture
+### AI应用开发
+熟悉提示词工程基础、模型微调、rag等AI应用开发技术和lagnchain和agently workflow等框架的使用,并有相关项目经历。熟悉如何使用dify、coze等平台搭建工作流和智能体,并用于在日常学习工作中提效。
 
 ---
 
-## Projects
+## 主要荣誉奖项
 
-### Project Name 1
-**Description:** A web application that [brief description]  
-**Technologies:** React, Node.js, MongoDB  
-**Link:** [GitHub/Project URL]
-
-### Project Name 2
-**Description:** An open-source tool for [brief description]  
-**Technologies:** Python, Flask, PostgreSQL  
-**Link:** [GitHub/Project URL]
+1.  2025年度挑战杯中国青年科技创新“揭榜挂帅” 擂台赛全国特等奖 (Top 0.1%)
+2.  第十九届“挑战杯”全国大学生课外学术科技作品竞赛2024年度“揭榜挂帅”专项赛全国一等奖
+3.  第十四届“中国软件杯”大学生软件设计大赛总决赛 普通高等教育组 全国三等奖
+4.  2025年暨南大学优秀学生表彰大会获创新创业实践类奖项表彰
+5.  益创星·2024深圳南山区第七届大学生社会创新项目大赛银奖、舒琦青创领航特别奖、最佳人气奖
+6.  暨南大学2024年大学生新文科实践创新校级金奖,国家级铜奖
+7.  国家信息学奥林匹克竞赛(NOIP)一等奖
 
 ---
 
-## Certifications
+## 项目经历
 
-- AWS Certified Solutions Architect (2023)
-- Certified Kubernetes Administrator (2022)
+### 一、慧眼识瑕————基于深度学习的智能工业质检系统
+(此作品获第十九届“挑战杯”全国大学生课外学术科技作品竞赛2024年度“揭榜挂帅”专项赛国家级一等奖)
+
+**项目特点:**
+
+**1. 高精度检测**
+先进算法应用:采用清华大学研发的YOLOv10目标检测模型,借助自注意力机制与非最大值抑制训练技术,实现对工业产品中微小、隐蔽缺陷的精准识别,突破传统质检方法的精度瓶颈
+模型优化与训练:针对真实缺陷图像稀缺问题,创新应用重叠小窗口切割+RandAugment双增强策略扩充数据集,并通过切片辅助超推理算法提升小目标检测精度,不断调整模型参数;实验证明,该方案可有效降低漏检率和误检率
+
+**2. 高效轻量部署**
+快速处理能力:基于昇腾910B NPU硬件加速平台,结合混合精度训练技术和ModelArts定制化镜像,构建即开即用的模型训练环境,显著提升计算资源利用率;推理阶段通过分块处理降低显存占用,加快检测速度
+
+**3. 智能分析与反馈**
+数据分析与报告生成:开发基于鸿蒙NEXT的质检应用,集成实时图像获取、检测结果展示、历史记录存储筛选、数据可视化及检测报表生成功能,为企业优化生产工艺、提高产品质量提供有力的数据支持。
+
+**4. 自主可控技术整合**
+全链路闭环:贯通算法设计(YOLOv10)、平台训练(ModelArts)、硬件加速(昇腾910B)、终端应用(鸿蒙系统)的完整技术链路,形成国产化技术方案
+
+**5. 可推广性设计:**
+通过环境镜像封装和标准化文档建设,保障训练流程可复现、部署方案可迁移,为制造业智能化升级提供可复制的实践案例
 
 ---
 
-## Languages
+### 二、智模昇算———基于全自主技术栈软硬协同的大模型系统调优方案
+(此作品获2025年度挑战杯中国青年科技创新“揭榜挂帅” 擂台赛全国特等奖,排名Top 0.1%)
 
-- English: Fluent
-- [Other Language]: [Proficiency Level]
+**项目概述:**
+“智模昇算”项目是一套软硬协同的大模型系统调优方案,该方案涵盖了从大模型精度提升、性能提升到侧端部署的全链路流程,并设计开发了一款可在原生鸿蒙操作系统上离线运行的个性化智慧学习应用。项目结合全栈自主可控技术,利用引擎调优、模型量化、算子优化等手段,显著提升了模型推理吞吐,并最终在竞赛算法打榜中取得头筹。此外,团队还向知名高性能推理引擎项目贡献六百余行代码并受到社区认可,为大模型与算力生态做出了有益探索和贡献。
+
+**项目亮点:**
+
+**高效模型调优**
+精准能力迁移: 应用推理蒸馏技术,结合SFT LoRA+与RSLORA等改进算法,将教师大模型的推理能力高效迁移至目标模型,使代码、数学等核心能力平均提升8%,并成功控制其余能力损失在2%以内。
+
+**全栈性能加速**
+三级协同优化:构建“引擎-模型-算子”三级加速体系,通过昇腾ACL图编译、关键算子(siluandmul/rmsnorm)深度开发,实现总吞吐量相对基准提升110%,单卡峰值性能达800 TPS。荣获性能榜第一名、总分第二名的优异成绩。
+
+**轻量化端侧部署**
+极致模型压缩: 基于昇腾工具链实现W4A8动态量化,结合SmoothQuant等算法,将模型内存占用压缩62%,同时核心指标保持在原精度的90%以上,成功部署于资源受限的终端设备。
+
+**开源生态贡献**
+知名项目贡献: 参与开源社区,并向国际知名推理引擎vLLM-project贡献代码超600行,实现了新版量化完整功能及其测试,修复现存的模型加载问题,并向昇腾官方仓库贡献了2个新版格式量化模型并上线。
+
+**全链路技术整合**
+端到端闭环: 成功打通从云端模型蒸馏、高效微调、全栈加速优化,到鸿蒙原生应用离线推理的完整技术链路,形成了一套可复现、可推广的国产化AI解决方案。
 
 ---
 
-## Interests
+## 科研经历
 
-- Open source contributions
-- Reading technical blogs and books
-- Attending tech meetups and conferences
-- [Other interests]
+作为核心成员主导和参与了论文《TravelDesigner: A generative Al-based tourist recommendation system using large language models for travel itinerary planning》的想法提出、算法设计与工程落地。
 
----
-
-*Last updated: January 2024*
-
+- 该工作设计了 TravelDesigner,一个基于LLMs智能体的生成式AI旅行推荐系统,它专门用来解决传统推荐系统因数据稀疏、假设不现实等固有限制,导致其生成的旅行路线缺乏个性化、不切实际且用户体验差的核心问题。该系统的一大特点是能够直接理解用户的自由格式输入,实现更自然的交互体验;同时,它具备更智能的规划能力,可以生成覆盖旅行全要素的完整多日跨城行程;并且,经实验证明,其推荐质量已全面超越传统专业工具,展现了更为卓越的应用效果。
