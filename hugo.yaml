@@ -1,4 +1,58 @@
 baseURL: https://anionex.github.io/
 languageCode: en-us
-title: My New Hugo Site
+title: My Personal Website
 theme: ["PaperMod"]
+
+params:
+  env: production
+  title: My Personal Website
+  description: "This is my personal website, sharing technology, life, and thoughts"
+  keywords: [blog, technology, development, programming]
+  author: Me
+  images: ["<link or path of image for opengraph, twitter-cards>"]
+  
+  # Home page info configuration
+  homeInfoParams:
+    Title: "Welcome to My Website"
+    Content: "This is my personal website, sharing technology, life, and thoughts. Feel free to explore my blog and projects!"
+  
+  # Social links
+  socialIcons:
+    - name: github
+      url: "https://github.com/anionex"
+  
+  # Display configuration
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+# Menu configuration
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 10
+    - identifier: resume
+      name: Resume
+      url: /resume/
+      weight: 20
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 30
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 40
