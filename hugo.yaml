@@ -1,20 +1,20 @@
 baseURL: https://anionex.github.io/
 languageCode: en-us
-title: My Personal Website
+title: Anion's Website
 theme: ["PaperMod"]
 
 params:
   env: production
-  title: My Personal Website
-  description: "This is my personal website, sharing technology, life, and thoughts"
-  keywords: [blog, technology, development, programming]
-  author: Me
+  title: Anion's Personal Website
+  description: "e/acc & deep learning enthusiast | LLMs, AIGC, and AI innovation"
+  keywords: [blog, AI, LLMs, AIGC, deep learning, machine learning, open source]
+  author: Anion
   images: ["<link or path of image for opengraph, twitter-cards>"]
   
   # Home page info configuration
   homeInfoParams:
-    Title: "Welcome to My Website"
-    Content: "This is my personal website, sharing technology, life, and thoughts. Feel free to explore my blog and projects!"
+    Title: "Hi 👋, I'm Anion"
+    Content: "e/acc & deep learning | Focused on LLMs, AIGC, and cutting-edge AI technologies | Open-source contributor | Always exploring new possibilities"
   
   # Social links
   socialIcons:

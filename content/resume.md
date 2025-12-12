@@ -7,102 +7,102 @@ draft: false
 
 # David Yang (aka anion)
 
-*   在读
+*   Currently Studying
 *   anionex@qq.com
 *   [https://github.com/Anionex](https://github.com/Anionex)
 
 ---
 
-## 教育经历
+## Education
 
-**JNU** [211, 双一流建设高校] | 计算机科学与技术 | 本科 | 2023-09 ~ 2027-06
-全日制 | 信息科学技术学院 | 广州
-
----
-
-## 专业技能
-
-### 算法与数据结构
-熟练掌握各类算法与数据结构,能够应用动态规划、贪心、回溯、分治等算法解决实际问题。曾获得 NOI、CSP、蓝桥杯等算法竞赛奖项。
-
-### 版本控制 (Git) 与协作开发
-熟悉 Git 工具,具备团队协作开发和参与开源项目的经验。曾为大型项目(几k到几十k收藏量github仓库)贡献代码,并受到社区认可。
-
-### Web 应用开发和运维
-掌握现代web应用开发技术,曾在多个项目中作为技术骨干,使用django、Flask等框架构建网站应用。具备基本 Linux 运维能力,能够独立完成 Web 应用的部署与管理;有使用 Docker 进行容器化部署的经验。
-
-### 大模型工程
-有大模型的微调、量化、推理性能优化经验,掌握大语言模型在包括但不限于Ktransformers、vllm、llama.cpp推理框架上的部署和性能调优。相关项目曾参与国家级竞赛并获得国家级奖项。
-
-### AI应用开发
-熟悉提示词工程基础、模型微调、rag等AI应用开发技术和lagnchain和agently workflow等框架的使用,并有相关项目经历。熟悉如何使用dify、coze等平台搭建工作流和智能体,并用于在日常学习工作中提效。
+**Jinan University (JNU)** [Project 211, Double First-Class University] | Computer Science and Technology | Undergraduate | 2023-09 ~ 2027-06  
+Full-time | School of Information Science and Technology | Guangzhou, China
 
 ---
 
-## 主要荣誉奖项
+## Professional Skills
 
-1.  2025年度挑战杯中国青年科技创新“揭榜挂帅” 擂台赛全国特等奖 (Top 0.1%)
-2.  第十九届“挑战杯”全国大学生课外学术科技作品竞赛2024年度“揭榜挂帅”专项赛全国一等奖
-3.  第十四届“中国软件杯”大学生软件设计大赛总决赛 普通高等教育组 全国三等奖
-4.  2025年暨南大学优秀学生表彰大会获创新创业实践类奖项表彰
-5.  益创星·2024深圳南山区第七届大学生社会创新项目大赛银奖、舒琦青创领航特别奖、最佳人气奖
-6.  暨南大学2024年大学生新文科实践创新校级金奖,国家级铜奖
-7.  国家信息学奥林匹克竞赛(NOIP)一等奖
+### Algorithms and Data Structures
+Proficient in various algorithms and data structures, capable of applying dynamic programming, greedy algorithms, backtracking, divide and conquer, and other algorithms to solve practical problems. Have won awards in algorithm competitions including NOI, CSP, and Blue Bridge Cup.
 
----
+### Version Control (Git) and Collaborative Development
+Familiar with Git tools, with experience in team collaboration and open-source project participation. Have contributed code to large projects (GitHub repositories with thousands to tens of thousands of stars) and received community recognition.
 
-## 项目经历
+### Web Application Development and Operations
+Proficient in modern web application development technologies. Have served as a technical backbone in multiple projects, using frameworks such as Django and Flask to build web applications. Possess basic Linux operations skills, capable of independently completing web application deployment and management; have experience with Docker containerization deployment.
 
-### 一、慧眼识瑕————基于深度学习的智能工业质检系统
-(此作品获第十九届“挑战杯”全国大学生课外学术科技作品竞赛2024年度“揭榜挂帅”专项赛国家级一等奖)
+### Large Model Engineering
+Experienced in fine-tuning, quantization, and inference performance optimization of large models. Proficient in deploying and performance tuning of large language models on inference frameworks including but not limited to Ktransformers, vLLM, and llama.cpp. Related projects have participated in national-level competitions and won national awards.
 
-**项目特点:**
-
-**1. 高精度检测**
-先进算法应用:采用清华大学研发的YOLOv10目标检测模型,借助自注意力机制与非最大值抑制训练技术,实现对工业产品中微小、隐蔽缺陷的精准识别,突破传统质检方法的精度瓶颈
-模型优化与训练:针对真实缺陷图像稀缺问题,创新应用重叠小窗口切割+RandAugment双增强策略扩充数据集,并通过切片辅助超推理算法提升小目标检测精度,不断调整模型参数;实验证明,该方案可有效降低漏检率和误检率
-
-**2. 高效轻量部署**
-快速处理能力:基于昇腾910B NPU硬件加速平台,结合混合精度训练技术和ModelArts定制化镜像,构建即开即用的模型训练环境,显著提升计算资源利用率;推理阶段通过分块处理降低显存占用,加快检测速度
-
-**3. 智能分析与反馈**
-数据分析与报告生成:开发基于鸿蒙NEXT的质检应用,集成实时图像获取、检测结果展示、历史记录存储筛选、数据可视化及检测报表生成功能,为企业优化生产工艺、提高产品质量提供有力的数据支持。
-
-**4. 自主可控技术整合**
-全链路闭环:贯通算法设计(YOLOv10)、平台训练(ModelArts)、硬件加速(昇腾910B)、终端应用(鸿蒙系统)的完整技术链路,形成国产化技术方案
-
-**5. 可推广性设计:**
-通过环境镜像封装和标准化文档建设,保障训练流程可复现、部署方案可迁移,为制造业智能化升级提供可复制的实践案例
+### AI Application Development
+Familiar with AI application development technologies such as prompt engineering basics, model fine-tuning, RAG, and the use of frameworks such as LangChain and Agently Workflow, with related project experience. Familiar with building workflows and agents using platforms such as Dify and Coze, and applying them to improve efficiency in daily learning and work.
 
 ---
 
-### 二、智模昇算———基于全自主技术栈软硬协同的大模型系统调优方案
-(此作品获2025年度挑战杯中国青年科技创新“揭榜挂帅” 擂台赛全国特等奖,排名Top 0.1%)
+## Major Awards and Honors
 
-**项目概述:**
-“智模昇算”项目是一套软硬协同的大模型系统调优方案,该方案涵盖了从大模型精度提升、性能提升到侧端部署的全链路流程,并设计开发了一款可在原生鸿蒙操作系统上离线运行的个性化智慧学习应用。项目结合全栈自主可控技术,利用引擎调优、模型量化、算子优化等手段,显著提升了模型推理吞吐,并最终在竞赛算法打榜中取得头筹。此外,团队还向知名高性能推理引擎项目贡献六百余行代码并受到社区认可,为大模型与算力生态做出了有益探索和贡献。
-
-**项目亮点:**
-
-**高效模型调优**
-精准能力迁移: 应用推理蒸馏技术,结合SFT LoRA+与RSLORA等改进算法,将教师大模型的推理能力高效迁移至目标模型,使代码、数学等核心能力平均提升8%,并成功控制其余能力损失在2%以内。
-
-**全栈性能加速**
-三级协同优化:构建“引擎-模型-算子”三级加速体系,通过昇腾ACL图编译、关键算子(siluandmul/rmsnorm)深度开发,实现总吞吐量相对基准提升110%,单卡峰值性能达800 TPS。荣获性能榜第一名、总分第二名的优异成绩。
-
-**轻量化端侧部署**
-极致模型压缩: 基于昇腾工具链实现W4A8动态量化,结合SmoothQuant等算法,将模型内存占用压缩62%,同时核心指标保持在原精度的90%以上,成功部署于资源受限的终端设备。
-
-**开源生态贡献**
-知名项目贡献: 参与开源社区,并向国际知名推理引擎vLLM-project贡献代码超600行,实现了新版量化完整功能及其测试,修复现存的模型加载问题,并向昇腾官方仓库贡献了2个新版格式量化模型并上线。
-
-**全链路技术整合**
-端到端闭环: 成功打通从云端模型蒸馏、高效微调、全栈加速优化,到鸿蒙原生应用离线推理的完整技术链路,形成了一套可复现、可推广的国产化AI解决方案。
+1.  2025 "Challenge Cup" China Youth Science and Technology Innovation "Unveiling and Leading" Arena National Grand Prize (Top 0.1%)
+2.  19th "Challenge Cup" National College Students' Extracurricular Academic Science and Technology Works Competition 2024 "Unveiling and Leading" Special Competition National First Prize
+3.  14th "China Software Cup" College Students Software Design Competition Finals, General Higher Education Group, National Third Prize
+4.  2025 Jinan University Outstanding Students Commendation Conference - Innovation and Entrepreneurship Practice Award
+5.  Yi Chuang Xing - 2024 Shenzhen Nanshan District 7th College Students Social Innovation Project Competition Silver Award, Shuqi Youth Innovation Leadership Special Award, Best Popularity Award
+6.  Jinan University 2024 College Students New Liberal Arts Practice Innovation School-level Gold Award, National-level Bronze Award
+7.  National Olympiad in Informatics (NOIP) First Prize
 
 ---
 
-## 科研经历
+## Project Experience
 
-作为核心成员主导和参与了论文《TravelDesigner: A generative Al-based tourist recommendation system using large language models for travel itinerary planning》的想法提出、算法设计与工程落地。
+### Project 1: Intelligent Industrial Quality Inspection System Based on Deep Learning
+(This project won the National First Prize in the 19th "Challenge Cup" National College Students' Extracurricular Academic Science and Technology Works Competition 2024 "Unveiling and Leading" Special Competition)
 
-- 该工作设计了 TravelDesigner,一个基于LLMs智能体的生成式AI旅行推荐系统,它专门用来解决传统推荐系统因数据稀疏、假设不现实等固有限制,导致其生成的旅行路线缺乏个性化、不切实际且用户体验差的核心问题。该系统的一大特点是能够直接理解用户的自由格式输入,实现更自然的交互体验;同时,它具备更智能的规划能力,可以生成覆盖旅行全要素的完整多日跨城行程;并且,经实验证明,其推荐质量已全面超越传统专业工具,展现了更为卓越的应用效果。
+**Project Features:**
+
+**1. High-Precision Detection**  
+Advanced Algorithm Application: Adopts the YOLOv10 object detection model developed by Tsinghua University, leveraging self-attention mechanisms and non-maximum suppression training techniques to achieve precise identification of tiny, hidden defects in industrial products, breaking through the precision bottleneck of traditional quality inspection methods.  
+Model Optimization and Training: To address the scarcity of real defect images, innovatively applies overlapping small window cutting + RandAugment dual augmentation strategies to expand the dataset, and improves small target detection accuracy through slice-assisted super inference algorithms, continuously adjusting model parameters; experiments prove that this solution can effectively reduce missed detection rates and false detection rates.
+
+**2. Efficient and Lightweight Deployment**  
+Fast Processing Capability: Based on the Ascend 910B NPU hardware acceleration platform, combined with mixed precision training technology and ModelArts customized images, builds a ready-to-use model training environment, significantly improving computing resource utilization; during the inference phase, reduces memory usage through block processing and accelerates detection speed.
+
+**3. Intelligent Analysis and Feedback**  
+Data Analysis and Report Generation: Developed a quality inspection application based on HarmonyOS NEXT, integrating real-time image acquisition, detection result display, historical record storage and filtering, data visualization, and detection report generation functions, providing strong data support for enterprises to optimize production processes and improve product quality.
+
+**4. Autonomous and Controllable Technology Integration**  
+Full-Link Closed Loop: Connects the complete technology chain of algorithm design (YOLOv10), platform training (ModelArts), hardware acceleration (Ascend 910B), and terminal application (HarmonyOS), forming a domestically produced technology solution.
+
+**5. Scalability Design:**  
+Through environment image encapsulation and standardized documentation construction, ensures that the training process is reproducible and the deployment solution is transferable, providing a replicable practical case for the intelligent upgrading of the manufacturing industry.
+
+---
+
+### Project 2: Smart Model Ascend Computing - Large Model System Optimization Solution Based on Fully Autonomous Technology Stack with Software-Hardware Collaboration
+(This project won the 2025 "Challenge Cup" China Youth Science and Technology Innovation "Unveiling and Leading" Arena National Grand Prize, ranking Top 0.1%)
+
+**Project Overview:**  
+The "Smart Model Ascend Computing" project is a software-hardware collaborative large model system optimization solution. This solution covers the full-link process from large model accuracy improvement, performance enhancement to edge deployment, and designs and develops a personalized intelligent learning application that can run offline on the native HarmonyOS operating system. The project combines full-stack autonomous and controllable technology, using engine optimization, model quantization, operator optimization and other means to significantly improve model inference throughput, and ultimately won the top position in the competition algorithm ranking. In addition, the team contributed more than 600 lines of code to well-known high-performance inference engine projects and received community recognition, making beneficial explorations and contributions to the large model and computing power ecosystem.
+
+**Project Highlights:**
+
+**Efficient Model Optimization**  
+Precise Capability Transfer: Applies inference distillation technology, combined with improved algorithms such as SFT LoRA+ and RSLORA, to efficiently transfer the inference capabilities of the teacher large model to the target model, improving core capabilities such as code and mathematics by an average of 8%, while successfully controlling the loss of other capabilities within 2%.
+
+**Full-Stack Performance Acceleration**  
+Three-Level Collaborative Optimization: Constructs a three-level acceleration system of "engine-model-operator", through Ascend ACL graph compilation and in-depth development of key operators (siluandmul/rmsnorm), achieving a 110% improvement in total throughput relative to the baseline, with a single-card peak performance of 800 TPS. Won first place in the performance ranking and second place overall.
+
+**Lightweight Edge Deployment**  
+Ultimate Model Compression: Based on the Ascend toolchain, implements W4A8 dynamic quantization, combined with algorithms such as SmoothQuant, compressing model memory usage by 62% while maintaining core metrics above 90% of the original precision, successfully deploying on resource-constrained terminal devices.
+
+**Open Source Ecosystem Contribution**  
+Contribution to Well-Known Projects: Participated in the open-source community and contributed more than 600 lines of code to the internationally renowned inference engine vLLM-project, implementing complete functionality and testing for new quantization versions, fixing existing model loading issues, and contributing 2 new format quantization models to the Ascend official repository, which have gone online.
+
+**Full-Link Technology Integration**  
+End-to-End Closed Loop: Successfully connects the complete technology chain from cloud model distillation, efficient fine-tuning, full-stack acceleration optimization, to HarmonyOS native application offline inference, forming a reproducible and scalable domestically produced AI solution.
+
+---
+
+## Research Experience
+
+As a core member, led and participated in the conceptualization, algorithm design, and engineering implementation of the paper "TravelDesigner: A generative AI-based tourist recommendation system using large language models for travel itinerary planning".
+
+- This work designed TravelDesigner, a generative AI travel recommendation system based on LLM agents, specifically designed to address the core problems of traditional recommendation systems that generate travel routes lacking personalization, impracticality, and poor user experience due to inherent limitations such as data sparsity and unrealistic assumptions. A major feature of this system is its ability to directly understand users' free-format input, achieving a more natural interaction experience; at the same time, it has more intelligent planning capabilities, capable of generating complete multi-day cross-city itineraries covering all travel elements; and, as proven by experiments, its recommendation quality has fully surpassed traditional professional tools, demonstrating more excellent application effects.
