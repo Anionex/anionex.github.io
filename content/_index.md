@@ -14,20 +14,20 @@ I'm a passionate developer and researcher focused on Large Language Models, AIGC
 
 ## 🔥 Featured Projects
 
-### [banana-slides](https://github.com/Anionex/banana-slides) ⭐ 2.2k
+### [banana-slides](https://github.com/Anionex/banana-slides) ![GitHub stars](https://img.shields.io/github/stars/Anionex/banana-slides) ![GitHub forks](https://img.shields.io/github/forks/Anionex/banana-slides)
 An AI-native PPT generator based on nano banana pro 🍌. Features include:
 - Upload any template image
 - Upload any material with intelligent parsing
 - Auto-generate PPT from a single sentence/outline/page description
 - Voice modification of specific areas and one-click export
 
-### [yolov10-pcb-detect](https://github.com/Anionex/yolov10-pcb-detect) ⭐ 35
-Using YOLOv10 object detection model for circuit board (PCB) defect detection
+### [cherry-studio-with-js-plugins](https://github.com/Anionex/cherry-studio-with-js-plugins) ![GitHub stars](https://img.shields.io/github/stars/Anionex/cherry-studio-with-js-plugins) ![GitHub forks](https://img.shields.io/github/forks/Anionex/cherry-studio-with-js-plugins)
+A JavaScript plugin system for Cherry Studio. Add custom shortcuts, UI styles, and entry points. Includes features like quick model switching + input focus shortcuts to boost productivity.
 
-### [treeAI](https://github.com/Anionex/treeAI) ⭐ 28
-Chat with LLMs in tree form, similar to flowith.ai
+### [MiniCPM-o-2.6-int4_Windows_x64_cuda](https://github.com/Anionex/MiniCPM-o-2.6-int4_Windows_x64_cuda) ![GitHub stars](https://img.shields.io/github/stars/Anionex/MiniCPM-o-2.6-int4_Windows_x64_cuda) ![GitHub forks](https://img.shields.io/github/forks/Anionex/MiniCPM-o-2.6-int4_Windows_x64_cuda)
+Integrated package for Modelbest's MiniCPM-o 2.6 multi-modal model. One-click setup for video/voice/text conversations within 8GB VRAM. Demonstrates quantization and deployment expertise.
 
-### [free-sophnet-api](https://github.com/Anionex/free-sophnet-api) ⭐ 33
+### [free-sophnet-api](https://github.com/Anionex/free-sophnet-api) ![GitHub stars](https://img.shields.io/github/stars/Anionex/free-sophnet-api) ![GitHub forks](https://img.shields.io/github/forks/Anionex/free-sophnet-api)
 Reverse-engineered Sophnet platform to obtain model API interface, compatible with OpenAI format, with tool calling support
 
 ---
@@ -35,8 +35,19 @@ Reverse-engineered Sophnet platform to obtain model API interface, compatible wi
 ## 🤝 Open Source Contributions
 
 Contributing to major open-source projects:
-- **[vLLM](https://github.com/vllm-project/vllm)** ⭐ 65k+ - A high-throughput and memory-efficient inference and serving engine for LLMs
-- **[vLLM-Ascend](https://github.com/vllm-project/vllm-ascend)** ⭐ 1.5k+ - Community maintained hardware plugin for vLLM on Ascend
+- **[vLLM](https://github.com/vllm-project/vllm)** ![GitHub stars](https://img.shields.io/github/stars/vllm-project/vllm) - A high-throughput and memory-efficient inference and serving engine for LLMs
+- **[vLLM-Ascend](https://github.com/vllm-project/vllm-ascend)** ![GitHub stars](https://img.shields.io/github/stars/vllm-project/vllm-ascend) - Community maintained hardware plugin for vLLM on Ascend
+- **[agent-browser](https://github.com/vercel-labs/agent-browser)** ![GitHub stars](https://img.shields.io/github/stars/vercel-labs/agent-browser) - Make websites accessible for AI agents
+
+---
+
+## 🎹 When Code Meets Keys
+
+My second IDE is a DAW. I write electronic music — building patches, designing synths, automating LFOs. There's a surprising amount of overlap between arranging a track and architecting a system: both require signal flow thinking, knowing when to layer, and when to strip things back.
+
+I started in a symphony orchestra playing trombone, which taught me breathing and timing. Now I sequence MIDI and program piano lines. The tools changed, but the obsession with sonic texture stayed the same.
+
+Whether it's optimizing CUDA kernels or sculpting a supersaw lead, I'm basically just chasing the right waveforms.
 
 ---
 

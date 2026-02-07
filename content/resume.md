@@ -1,7 +1,7 @@
 ---
 title: "Resume"
-date: 2025-11-21
-description: "My professional resume and work experience"
+date: 2026-02-14
+description: "David Yang's resume"
 draft: false
 ---
 
